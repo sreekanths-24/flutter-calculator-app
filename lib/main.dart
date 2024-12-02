@@ -42,10 +42,7 @@ class _CalculatorHomeState extends State<CalculatorHome> {
         _operator = "";
         _num1 = 0;
         _num2 = 0;
-      } else if (buttonText == "+" ||
-          buttonText == "-" ||
-          buttonText == "x" ||
-          buttonText == "/") {
+      } else if (buttonText == "+" || buttonText == "-" || buttonText == "x" || buttonText == "/") {
         _num1 = double.parse(_output);
         _operator = buttonText;
         _output = "0";
